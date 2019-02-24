@@ -1,0 +1,184 @@
+
+<html>
+
+<head>
+    <title>Rivebot - Thông báo thay đổi tên thương hiệu</title>
+    <!-- load cdn styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+    @import url(https://fonts.googleapis.com/css?family=Lato:700);
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+  font-size: 13pt;
+}
+.box {
+  position: relative;
+  padding: 50px 90px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+/* common */
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #2980b9;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  background-color: #3498db;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: #fff;
+  font: 700 18px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* top left*/
+.ribbon-top-left {
+  top: -10px;
+  left: -10px;
+}
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.ribbon-top-left::before {
+  top: 0;
+  right: 0;
+}
+.ribbon-top-left::after {
+  bottom: 0;
+  left: 0;
+}
+.ribbon-top-left span {
+  right: -25px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+
+/* top right*/
+.ribbon-top-right {
+  top: -10px;
+  right: -10px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+}
+
+/* bottom left*/
+.ribbon-bottom-left {
+  bottom: -10px;
+  left: -10px;
+}
+.ribbon-bottom-left::before,
+.ribbon-bottom-left::after {
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.ribbon-bottom-left::before {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-bottom-left::after {
+  top: 0;
+  left: 0;
+}
+.ribbon-bottom-left span {
+  right: -25px;
+  bottom: 30px;
+  transform: rotate(225deg);
+}
+
+/* bottom right*/
+.ribbon-bottom-right {
+  bottom: -10px;
+  right: -10px;
+}
+.ribbon-bottom-right::before,
+.ribbon-bottom-right::after {
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-bottom-right::before {
+  bottom: 0;
+  left: 0;
+}
+.ribbon-bottom-right::after {
+  top: 0;
+  right: 0;
+}
+.ribbon-bottom-right span {
+  left: -25px;
+  bottom: 30px;
+  transform: rotate(-225deg);
+}
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+          <div class="ribbon ribbon-top-left"><span>Rivebot</span></div>
+          <!--<div class="ribbon ribbon-top-right"><span>ribbon</span></div>
+          <div class="ribbon ribbon-bottom-left"><span>ribbon</span></div>
+          <div class="ribbon ribbon-bottom-right"><span>ribbon</span></div>-->
+          
+            <h1><a id="Knh_gi_Qu_khch_hng_0"></a>Kính gửi: Quý khách hàng,</h1>
+            <p>Lời đầu tiên, Ban Quản Trị (BQT) xin được gửi lời cảm ơn chân thành đến quý khách hàng đã lựa chọn sử dụng tin tưởng trong suốt thời gian vừa qua.</p>
+            <p>BQT xin thông báo tới quý khách hàng, từ 25/02/2019, chúng tôi chính thức thay đổi tên gọi và nhận diện thương hiệu nhằm xây dựng chiến lược dài hạn, đánh dấu quá trình phát triển và không ngừng nỗ lực phục vụ quý khách hàng.</p>
+            <p>Nội dung cụ thể như sau:</p>
+            <ul>
+            <li>Tên gọi: <strong>Saviebot</strong> đổi thành <strong>Rivebot</strong></li>
+            <li>Slogan: Rendering Intelligent Very Easily</li>
+            <li>Đ/c website: <a href="https://rivebot.com">https://rivebot.com</a></li>
+            <li>Fb fanpage: <a href="https://facebook.com/rivebot">https://facebook.com/rivebot</a></li>
+            <li>Nhận diện thương hiệu: Logo, Website, tên Fanpage, … đều thể hiện chung một nhận diện như dưới đây:</li>
+            </ul>
+            <p><img src="https://github.com/yeuai.png" alt="Rivebot"></p>
+            <p><strong>Rivebot</strong> đã đi qua chặng đường dài với sự tin tưởng từ phía khách hàng, nhân đây chúng tôi xin gửi lời tri ân tới quý khách hàng trong thời gian này đã lựa chọn đồng hành cùng hoạt động kinh doanh của mình.</p>
+            <p>Chúng tôi xin trân trọng thông báo về sự thay đổi này và cam kết không ngừng nỗ lực về chất lượng sản phẩm và dịch vụ để mang đến khách hàng sự hài lòng nhất.</p>
+            <p>Trân trọng cảm ơn,<br>
+            BQT, <strong>Rivebot</strong>!</p>
+        </div>
+        
+
+    </div>
+
+</body>
+
+</html>
